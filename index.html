@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login</title>
+</head>
+<body class="">
+
+    <nav class="text-white d-none justify-content-around pt-3 shadow-lg pb-2">
+        <div class="navbar-brand fs-4 w-50">SMART Login</div>
+        <button id="logOutBtn" class="btn btn-outline-warning mt-1 p-2 text-light">Logout</button>
+    </nav>
+
+
+    
+    <section id="page-one" class="container d-flex justify-content-center p-5 h-100">
+        <div class="card p-5 w-75 ">
+            <h1 class="text-center text-info">Smart Login System</h1>
+            <input id="enterEmail" class="form-control shadow-none ps-3 fs-4 mt-3" type="email" placeholder="Enter Your Email" >
+            <input id="enterPass" class="form-control shadow-none ps-3 fs-4 mt-3" type="password" placeholder="Enter Your password" >
+            <button id="loginBtn" class="btn btn-outline-info fs-4 mt-5">Login</button>
+            <div class="fs-5 text-center mt-3">Don’t have an account? <a href="" id="signUp" class="focus-ring-info">Sign up</a></div>
+        </div>
+    </section>
+
+    <section id="page-two" class="container d-none justify-content-center p-5 h-100">
+        <div class="card p-5 w-75 ">
+            <h1 class="text-center text-info">Smart Login System</h1>
+            <input id="signName" class="form-control shadow-none ps-3 fs-4 mt-3" type="text" placeholder="Enter Your Name" value="" >
+            <input id="signEmail" class="form-control shadow-none ps-3 fs-4 mt-3" type="email" placeholder="Enter Your Email" >
+            <input id="signpass" class="form-control shadow-none ps-3 fs-4 mt-3" type="password" placeholder="Enter Your password" >
+            <p class="d-none text-success  fs-4" style="position: relative;top: 50px;left:93%;transform: translate(-50%,-50%);">Sucsess</p>
+            <button id="sinupBtn" class="btn btn-outline-info fs-4 mt-5">Sign Up</button>
+            <div class="fs-5 text-center mt-3">You have an account? <a href="" id="signIn" class="focus-ring-info">Sign in</a></div>
+
+        </div>
+    </section>
+
+
+
+    <section id="page-tree" class="container d-none justify-content-center align-items-center p-5 h-100">
+        <div id="card" class="card p-5 w-75 ">
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    
+    <script src="js/all.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
